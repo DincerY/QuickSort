@@ -26,8 +26,6 @@ int HoarePartition(int arr[],int left,int right){
 
 }
 
-
-
 void QuickSort(int A[], int left,int right){
     if(left < right){
         int pivot = HoarePartition(A,left,right);
@@ -40,8 +38,12 @@ void QuickSort(int A[], int left,int right){
 
 
 
+
+
+
+
 void main() {
-    int arr[] = {7,8,5,4,9,6,3};
+    int arr[] = {3,5,9,7,4,6,2,1,11,19,17};
     QuickSort(arr,0,6);
     printf("%d",1);
 
