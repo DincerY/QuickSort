@@ -2,8 +2,8 @@
 #include <stdbool.h>
 
 
-void HoarePartition(int arr[],int left,int right){
-    int pivot = arr[pivot];
+int HoarePartition(int arr[],int left,int right){
+    int pivot = arr[left];
     int i = left - 1;
     int j = right + 1;
 
@@ -14,32 +14,35 @@ void HoarePartition(int arr[],int left,int right){
 
         do {
             j--;
-        } while (arr[j] > pivot);
+        } while (arr[j] > pivot && j>=0);
 
-
-
+        if(i >= j){
+            return i;
+        }
+        int tempData = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tempData;
     }
-    int tempData = arr[i];
-    arr[i] = arr[pivot];
-    arr[pivot] = tempData;
-
 
 }
 
 
 
 void QuickSort(int A[], int left,int right){
-    HoarePartition(A,left,right);
+    if(left < right){
+        int pivot = HoarePartition(A,left,right);
+        QuickSort(A,0,pivot);
+        QuickSort(A,pivot+1,right);
 
-    /*QuickSort();
-    QuickSort();*/
+    }
 
 }
 
 
 
 void main() {
-    int arr[] = {5,9,7,4,6};
-    QuickSort(arr,0,4);
+    int arr[] = {7,8,5,4,9,6,3};
+    QuickSort(arr,0,6);
+    printf("%d",1);
 
 }
