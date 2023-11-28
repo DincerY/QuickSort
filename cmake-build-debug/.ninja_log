@@ -1,0 +1,21 @@
+# ninja log v5
+0	74	7228819882406479	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+75	174	7228819883352475	QuickSort.exe	280de23c15e7a38b
+2	62	7228820723027829	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+63	154	7228820723906049	QuickSort.exe	280de23c15e7a38b
+2	68	7228821137762072	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+68	162	7228821138667305	QuickSort.exe	280de23c15e7a38b
+2	66	7228823157572120	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+67	159	7228823158457717	QuickSort.exe	280de23c15e7a38b
+2	63	7228824251323301	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+63	150	7228824252168479	QuickSort.exe	280de23c15e7a38b
+2	67	7228824773450046	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+67	159	7228824774335699	QuickSort.exe	280de23c15e7a38b
+2	72	7228826301935569	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+73	180	7228826302956568	QuickSort.exe	280de23c15e7a38b
+2	78	7228832753685560	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+79	177	7228832754631262	QuickSort.exe	280de23c15e7a38b
+2	68	7228832961433644	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+69	160	7228832962310007	QuickSort.exe	280de23c15e7a38b
+3	66	7228833440943789	CMakeFiles/QuickSort.dir/main.c.obj	11ded7dd0522e04a
+66	157	7228833441810315	QuickSort.exe	280de23c15e7a38b
